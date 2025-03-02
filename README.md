@@ -20,20 +20,21 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
 
 ## Depicts various modules of Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
 
-![Fig1](assets/1.png)  
-##Depicts real-Time Sensing and Connectivity Module
+### Fig1: Depicts real-Time Sensing and Connectivity Module
+![Fig1](assets/1.png)
 
-![Fig2](assets/2.png)  
-##Depicts Central Monitoring and Alert Dashboard
+### Fig2: Depicts Central Monitoring and Alert Dashboard
+![Fig2](assets/2.png)
 
-![Fig3](assets/3.png)  
-##Depicts Automatic Spray System*
+### Fig3: Depicts Automatic Spray System
+![Fig3](assets/3.png)
 
-![Fig4](assets/4.png)  
-##Depicts Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
+### Fig4: Depicts Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
+![Fig4](assets/4.png)
 
-![Fig5](assets/5.png)  
-##Depicts Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
+### Fig5: Depicts Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
+![Fig5](assets/5.png)
+
 
 
 ## Hardware Components
