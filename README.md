@@ -18,18 +18,16 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
 - **Location Tracking**: GPS module for accurate location monitoring.
 - **Wi-Fi Connectivity**: Easy access to data remotely.
 
-## Depicts various modules of Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
-
-### Fig1: Depicts real-Time Sensing and Connectivity Module
+### Fig1: Depicts various modules of Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
 ![Fig1](assets/1.png)
 
-### Fig2: Depicts Central Monitoring and Alert Dashboard
+### Fig2: Depicts real-Time Sensing and Connectivity Module
 ![Fig2](assets/2.png)
 
-### Fig3: Depicts Automatic Spray System
+### Fig3: Depicts Central Monitoring and Alert Dashboard
 ![Fig3](assets/3.png)
 
-### Fig4: Depicts Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
+### Fig4: Depicts Automatic Spray System
 ![Fig4](assets/4.png)
 
 ### Fig5: Depicts Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
