@@ -99,3 +99,5 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
 ## Usage
 
 Once the system is set up, it will monitor the humidity and odor levels in the toilet cubicle and send data to **ThinkSpeak**. You can access the dashboard remotely to check the real-time values. Maintenance personnel will receive alerts via the system whenever cleaning is required 🚨🧽.
+
+![Fig2](assets/Hygi_Net.png)
