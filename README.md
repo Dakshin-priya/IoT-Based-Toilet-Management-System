@@ -2,27 +2,24 @@
 
 ## Description
 
-The **Real-Time IoT-Based Toilet Health Monitoring System** is an innovative solution to monitor the humidity and odor levels within a toilet cubicle using an IoT-based system powered by the **ESP32**. The system provides real-time data, accessible remotely via the cloud, to ensure hygiene levels are maintained. The system features an alert mechanism with two levels:
+The **Real-Time IoT-Based Toilet Health Monitoring System** is an innovative solution to monitor humidity and odor levels within a toilet cubicle using an IoT-based system powered by the **ESP32**. The system provides real-time data, accessible remotely via the cloud, to ensure hygiene levels are maintained. The system features an alert mechanism with two levels:
 
 - **First Level Alert**: Activated when sensor readings exceed set thresholds but only for 30 minutes and after three successive occurrences.
-- **Second Level Alert**: Triggered when critical moisture or odor values are detected, signaling the need for immediate action.
+- **Second Level Alert**: Triggered when critical humidity or odor values are detected, signaling the need for immediate action.
 
-The system displays real-time data (humidity, odor level, and time) on a **ThinkSpeak** dashboard. Maintenance personnel receive hygiene alerts to prompt cleaning actions. The system also includes a disinfectant spray mechanism, using various sensors like a float sensor, ultrasonic sensor, and occupancy sensor, ensuring that the spray is only activated when the restroom is unoccupied. Furthermore, an integrated **GPS module** ensures precise location tracking.
+The system displays real-time data (humidity, odor level, and time) on a **ThinkSpeak** dashboard. Maintenance personnel receive hygiene alerts to prompt cleaning actions. The system also includes a disinfectant spray mechanism that ensures the spray is only activated when the restroom is unoccupied. Furthermore, an integrated **GPS module** ensures precise location tracking.
 
 ## Features
 
-- **Real-Time Monitoring**: Tracks moisture and odor levels in the toilet cubicle.
+- **Real-Time Monitoring**: Tracks humidity and odor levels in the toilet cubicle.
 - **Two-Level Alert System**: Alerts for hygiene issues based on sensor thresholds.
 - **Cloud Integration**: View real-time data through **ThinkSpeak**.
 - **Disinfectant Mechanism**: Controls disinfectant spray based on sensor readings and occupancy.
 - **Location Tracking**: GPS module for accurate location monitoring.
 - **Wi-Fi Connectivity**: Easy access to data remotely.
 
-### Fig1: Block Diagram
-![Fig1](assets/blockdiagram.jpeg)
-
-
-
+### Block Diagram
+![Block Diagram](assets/blockdiagram.jpeg)
 
 ## Software Libraries
 
@@ -34,7 +31,7 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
 
 ### Prerequisites
 
-- **Hardware**: ESP32, DHT22, TGS2062, ultrasonic sensor, float sensor, occupancy sensor, GPS module.
+- **Hardware**: ESP32, DHT22, TGS2062, GPS module.
 - **Software**: Arduino IDE or similar platform for ESP32 development.
 
 ### Steps
@@ -47,7 +44,7 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
 2. **Hardware Wiring**:
     - Connect the **DHT22** sensor to the ESP32.
     - Connect the **TGS2062** odor sensor to the ESP32.
-    - Connect the **Ultrasonic Sensor**, **Float Sensor**, **Occupancy Sensor**, and **GPS Module** to the ESP32.
+    - Connect the **GPS Module** to the ESP32.
 
 3. **Upload the Code**:
     - Open the **Arduino IDE**.
@@ -56,8 +53,8 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
     - Upload the code to the **ESP32** board.
 
 4. **Viewing Data**:
-    - Once the system is set up and running, the data will be transmitted to **ThinkSpeak** where you can view real-time values for **moisture** and **odor**.
-    - The serial monitor will display the connected **Wi-Fi**, current **moisture level**, **odor value**, and whether cleaning is required.
+    - Once the system is set up and running, the data will be transmitted to **ThinkSpeak** where you can view real-time values for **humidity** and **odor**.
+    - The serial monitor will display the connected **Wi-Fi**, current **humidity level**, **odor value**, and whether cleaning is required.
 
 ### Configuration
 
