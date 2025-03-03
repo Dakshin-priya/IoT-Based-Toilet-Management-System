@@ -19,7 +19,7 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
 - **Wi-Fi Connectivity**: Easy access to data remotely.
 
 ### Fig1: Block Diagram
-![Fig1](assets/1.png)
+![Fig1](assets/blockdiagram.png)
 
 
 
