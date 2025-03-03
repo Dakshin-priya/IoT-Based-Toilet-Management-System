@@ -18,43 +18,11 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
 - **Location Tracking**: GPS module for accurate location monitoring.
 - **Wi-Fi Connectivity**: Easy access to data remotely.
 
-### Fig1: Depicts various modules of Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
+### Fig1: Block Diagram
 ![Fig1](assets/1.png)
 
-### Fig2: Depicts real-Time Sensing and Connectivity Module
-![Fig2](assets/2.png)
-
-### Fig3: Depicts Central Monitoring and Alert Dashboard
-![Fig3](assets/3.png)
-
-### Fig4: Depicts Automatic Spray System
-![Fig4](assets/4.png)
-
-### Fig5: Depicts Real-Time Toilet Monitoring and Automatic Disinfectant Spraying System
-![Fig5](assets/5.png)
 
 
-
-## Hardware Components
-
-- **DHT22** (Moisture Sensor)
-  - Pin 1: Power Supply (5V)
-  - Pin 2: Data Pin
-  - Pin 3: No Connection
-  - Pin 4: Ground
-
-- **Odor Sensor (TGS2062)**
-  - Pin 1: Ground
-  - Pin 2: Analog Pin (ESP32 Pin 33)
-  - Pin 3: VCC
-  - Pin 4: Digital Pin (ESP32 Pin 2)
-
-- **Other Components**
-  - ESP32 board
-  - Ultrasonic Sensor (for mist distribution)
-  - Float Sensor (for disinfectant detection)
-  - Occupancy Sensor
-  - GPS Module
 
 ## Software Libraries
 
@@ -77,8 +45,8 @@ The system displays real-time data (humidity, odor level, and time) on a **Think
     - Thingspeak Library
 
 2. **Hardware Wiring**:
-    - Connect the **DHT22** sensor to the ESP32 (5V, Ground, Data Pin).
-    - Connect the **TGS2062** odor sensor to the ESP32 (Analog Pin 33, Digital Pin 2, VCC, Ground).
+    - Connect the **DHT22** sensor to the ESP32.
+    - Connect the **TGS2062** odor sensor to the ESP32.
     - Connect the **Ultrasonic Sensor**, **Float Sensor**, **Occupancy Sensor**, and **GPS Module** to the ESP32.
 
 3. **Upload the Code**:
